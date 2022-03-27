@@ -1,4 +1,5 @@
 mod from;
+pub mod decereal;
 
 
 #[cfg(test)]
