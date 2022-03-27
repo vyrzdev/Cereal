@@ -25,11 +25,6 @@ impl From<f32> for Cereal {
     }
 }
 
-impl From<f32> for Cereal {
-    fn from(v: f32) -> Self {
-        Cereal(format!("f{}", v))
-    }
-}
 
 
 impl From<i8> for Cereal {
